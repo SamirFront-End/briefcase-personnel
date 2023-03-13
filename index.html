@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="/assent/css/normalize.css">
     <link rel="stylesheet" href="/assent/css/reset.css">
     <link rel="stylesheet" href="/assent/css/header.css">
+    <link rel="stylesheet" href="/assent/css/navbar/navbar.css">
+    <link rel="stylesheet" href="/assent/css/navbar/menu.css">
+    <script src="./js/function.js"></script>
     <script src="https://kit.fontawesome.com/76750b34bb.js" crossorigin="anonymous"></script>
     <title>SamirDev</title>
 </head>
@@ -20,7 +23,7 @@
             <div class="nav_logo">
                 <img id=logo src="/assent/images/logo.jpg" alt="Logo">
             </div>
-            <div class="nav_menu">
+            <div class="nav_menu" id="links">
                 <a href="#" class="menu_links">Sobre mi</a>
                 <a href="#" class="menu_links">Skill</a>
                 <a href="#" class="menu_links">Hobbies</a>
@@ -28,26 +31,30 @@
                 <a href="#" class="menu_links">Mis Proyectos</a>
                 <a href="#" class="menu_links">Contacto</a>
             </div>
-            <div class="nav_hamburger">
+            <div class="nav_hamburger" id="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </nav>
+    </header>
+    <section class="banner">
         <div class="call_action">
             <h1>Hola, soy Samir Ramírez y desarrollo sitios web </h1>
             <p>                        
                 Estoy aquí para ayudarte a ti y a tu negocio a alcanzar otro nivel, no te quedes sin ingresar al mundo digital y tener más y mejores oportunidades de negocio ¿Qué esperas para crecer? Contáctame y construyamos el sitio web que tanto sueñas.
             </p>
-            <i class="fa-brands fa-github"></i><span>GitHub</span>
-            <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
-            <i class="fa-brands fa-instagram"></i><span>Instagram</span>
+            <div class="icons">
+                <i class="fa-brands fa-github"></i><span class="icon_span">GitHub</span>
+                <i class="fa-brands fa-linkedin"></i><span class="icon_span">LinkedIn</span>
+                <i class="fa-brands fa-instagram"></i><span class="icon_span">Instagram</span>
+            </div>
             <button>Cotiza aquí</button>
         </div>
         <div class="photo_profile">
             <img src="/assent/images/photo.jpg" alt="foto">
         </div>
-    </header>
+    </section>
     <section>
         <div class="about_me">
             <h2>Sobre mi</h2>
@@ -170,5 +177,6 @@
         </div>
 
     </footer>
+    
 </body>
 </html>

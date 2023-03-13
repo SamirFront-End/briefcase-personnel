@@ -1,24 +1,48 @@
-.navbar {
-    display: flex;
-    justify-content:space-between;
-}
-#logo {
-    width: 6.25rem;
-    margin: 0.938rem;
-}
-/*.nav_menu {
-    
-}*/
-.nav_hamburger {
-    display: none;
-    flex-direction: column;
-}
-.nav_hamburger span {
-    width: 40px;
-    height: 5px;
-    background-color: black;
-    margin-top: 5px;
-}
-.call_action {
-    display: flex;
+@media (max-width: 768px) {
+    .call_action {
+        display: flex;
+        flex-direction:column;
+        /*margin-top: 1.563rem;*/
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        /*background-color: #1498d5;*/
+        width: 90%;
+        margin: auto;
+    }
+    .banner .photo_profile {  
+        order: 1;
+    }
+    .banner .call_action {  
+        order: 2;
+    }
+    .photo_profile img{
+        border-radius: 100px;
+        
+    }
+    .photo_profile {
+        margin: auto;
+    }
+    .icons {
+        position: fixed;
+        font-size: 3.125rem;
+        top: 31.25rem;
+        background-color: #1498d5;
+    }
+    .icon_span{
+        display: none;
+    }
+    .fa-brands {
+        display: none;
+        margin: .4rem;
+    }
+    h1 {
+        font-size: 3.125rem;
+        margin: 0.938rem;
+    }
+    .call_action p {
+        font-size: 1.563rem;
+        margin: 0.938rem;
+    }
 }
