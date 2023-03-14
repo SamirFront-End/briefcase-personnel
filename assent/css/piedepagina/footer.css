@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .icon_foot {
+        display: block;
+        color: #1498d5!important;
+        margin: 10px !important;
+        font-size: 3.125rem !important;
+    }
+    .footer_network { 
+        position: fixed;
+        top: 9.375rem;
+        background-color: white;
+    }
+}

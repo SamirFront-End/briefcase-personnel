@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
     .jobs {
-        padding-top: 30px;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
     }
     .experiences {
         width: 90%;
@@ -36,6 +37,7 @@
         font-size: 1.563rem;
         font-weight: bolder;
         border: 1px 1px;
+        border-color: #1498d5;
         width: 40%;
         height: 3.125rem;
         margin: auto;

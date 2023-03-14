@@ -1,13 +1,19 @@
 @media (max-width: 768px) {
-    .icon_foot {
-        display: block;
-        color: #1498d5!important;
-        margin: 10px !important;
-        font-size: 3.125rem !important;
+    .frm_contact {
+        background-color: #E3F2FD;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
     }
-    .footer_network { 
-        position: fixed;
-        top: 9.375rem;
-        background-color: white;
+    .contact {
+        width: 90%;
+        margin: auto;
+    }
+    .title_contact {
+        padding-bottom: 1.875rem;
+    }
+    .title_contact h3 {
+        text-align: center;
+        font-size: 1.875rem;
+        margin: 15px;
     }
 }
