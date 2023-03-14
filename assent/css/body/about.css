@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .about {
+        background-color: #E3F2FD;
+        margin-top: 3.125rem;
+    }
+    .about_me {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    h2 {
+        font-size: 3.125rem;
+        margin: 0.938rem;
+    }
+    .me {
+        font-size: 1.563rem;
+        margin: 0.938rem;
+        margin-bottom: 3.125rem;
+    }
+}
