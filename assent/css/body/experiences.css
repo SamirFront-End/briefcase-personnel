@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+    .jobs {
+        padding-top: 30px;
+    }
+    .experiences {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .img_jobs {
+        width: 100%;
+    }
+    .experiences h3 {
+        font-size: 1.875rem;
+        margin: 0.938rem;
+    }
+    .experiences p {
+        font-size: 1.563rem;
+        margin: 0.938rem;
+    }
+    #repo {
+        background-color: #1498d5;
+        color:white;
+        font-size: 1.563rem;
+        font-weight: bolder;
+        border: none;
+        width: 40%;
+        height: 3.125rem;
+        margin: auto;
+        border-radius: 5px;
+    }
+    #demo {
+        background-color: white;
+        color:#1498d5;
+        font-size: 1.563rem;
+        font-weight: bolder;
+        border: 1px 1px;
+        width: 40%;
+        height: 3.125rem;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .buttons {
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+}

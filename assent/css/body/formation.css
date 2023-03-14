@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .education {
+        margin-top: 3.125rem;
+        background-color: #E3F2FD;
+        display: flex;
+        flex-direction: column;
+        padding-top: 1.875rem;
+        padding-bottom: 3.125rem;
+    }
+    .formation {
+        width: 90%;
+        margin: auto;
+    }
+    .formation h3{
+        font-size: 1.875rem;
+        margin: 0.938rem;
+    }
+    .formation p {
+        font-size: 1.563rem;
+        margin: 0.938rem;
+    }
+    .universities {
+        width: 100%;
+    }
+}

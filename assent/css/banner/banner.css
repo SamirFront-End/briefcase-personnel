@@ -2,7 +2,6 @@
     .banner {
         display: flex;
         flex-direction: column;
-        /*background-color: #1498d5;*/
         width: 90%;
         margin: auto;
     }
@@ -21,10 +20,6 @@
     }
     .icons {
         display: none;
-        position: fixed;
-        font-size: 3.125rem;
-        top: 31.25rem;
-        background-color: #1498d5;
     }
     h1 {
         font-size: 3.125rem;
@@ -33,7 +28,6 @@
     .call_action {
         display: flex;
         flex-direction:column;
-        /*margin-top: 1.563rem;*/
     }
     .call_action p {
         font-size: 1.563rem;
