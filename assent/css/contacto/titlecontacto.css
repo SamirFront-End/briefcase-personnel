@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .frm_contact {
         background-color: #E3F2FD;
         padding-top: 1.875rem;
@@ -14,6 +14,10 @@
     .title_contact h3 {
         text-align: center;
         font-size: 1.875rem;
-        margin: 15px;
+        margin: 0.938rem;
+    }
+    .title_contact p {
+        font-size: 1.563rem;
+        margin: 0.938rem;
     }
 }

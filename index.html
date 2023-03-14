@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="/assent/css/body/formation.css">
     <link rel="stylesheet" href="/assent/css/body/experiences.css">
     <link rel="stylesheet" href="/assent/css/piedepagina/footer.css">
+    <link rel="stylesheet" href="/assent/css/contacto/titlecontacto.css">
+    <link rel="stylesheet" href="/assent/css/contacto/frm.css">
     <script src="./js/function.js"></script>
     <script src="https://kit.fontawesome.com/76750b34bb.js" crossorigin="anonymous"></script>
     <title>SamirDev</title>
@@ -176,11 +178,14 @@
                 </p>
             </div>
             <form class="frm" action="">
-                <input type="text" id="contact_">
-                <input type="email" id="contact_">
-                <input type="text" id="contact_">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" id="contact_" value="Contactar">
+                <fieldset>
+                    <legend>Enviar mensaje </legend>
+                    <input type="text" id="contact_name" placeholder="Nombre" required>
+                    <input type="email" id="contact_email" placeholder="Correo Eletrónico" required>
+                    <input type="text" id="contact_affair" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe aquí tu mensaje" ></textarea>
+                    <input type="submit" id="contact_submit" value="Contactar">
+                </fieldset>
             </form>
         </div>
     </section>
@@ -191,9 +196,13 @@
             <i class="icon_foot fa-brands fa-instagram"></i>
         </div>
         <div class="footer_logo">
-            <img src="/assent/images/logodev2.png" alt="SamirDev">
+            <img class="logo_footer" src="/assent/images/logodev2.png" alt="SamirDev">
         </div>
-
+        <div class="sub_footer">
+            <p class="p_footer">
+                &copy; Derechos reservados 2023
+            </p>
+        </div>
     </footer>
     
 </body>
