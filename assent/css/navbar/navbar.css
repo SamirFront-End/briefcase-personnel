@@ -1,3 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+#logo {
+    width: 6.25rem;
+    margin: 0.938rem;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
 @media (max-width: 992px) {
     .navbar {
         display: flex;

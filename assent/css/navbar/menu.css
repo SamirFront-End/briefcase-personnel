@@ -1,3 +1,15 @@
+.nav_menu a{
+    color: #1498d5;
+    margin: 0.625rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.nav_hamburger {
+    display: none;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
 @media (max-width: 992px) {
     .nav_menu a{
         color: white;
