@@ -23,7 +23,10 @@
     margin: 0.938rem;
 }
 .img_contact {
-    display: none;
+    width: 68%;
+    border-radius: 10px;
+    margin: auto;
+    
 }
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/

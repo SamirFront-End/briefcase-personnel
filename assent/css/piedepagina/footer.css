@@ -1,5 +1,5 @@
 footer {
-    /*display: flex;*/
+    display: flex;
     background: rgb(20,152,213);
     background: linear-gradient(90deg, rgba(20,152,213,1) 35%, rgba(0,212,255,1) 100%);
 }
@@ -8,15 +8,29 @@ footer {
     margin: 0.625rem;
     font-size: 3.125rem;
 }
+.footer_icon {
+    font-weight: bolder;
+}
 .footer_network { 
-    
+    margin: auto;
     top: 9.375rem;
-    
+}
+.footer_p {
+    font-size: 1.5rem;
+    color: black;
+    margin: auto;
+}
+.footer_logo {
+    display: flex;
+    justify-content: end;
+}
+.sub_footer {
+    display: none;
 }
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     footer {
         display: flex;
         background: rgb(20,152,213);
@@ -32,6 +46,12 @@ footer {
         position: fixed;
         top: 9.375rem;
         background-color: white;
+    }
+    .footer_p {
+        display: none;
+    }
+    .footer_icon {
+        display: none;
     }
     .footer_logo {
         width: 100%;
@@ -51,7 +71,7 @@ footer {
     }
     .p_footer {
         text-align: center;
-        color: white;
+        color: black;
         font-size: 1.5rem;
         font-weight: bolder;
         margin: auto;

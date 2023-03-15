@@ -33,7 +33,7 @@
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .education {
         margin-top: 3.125rem;
         background-color: #E3F2FD;

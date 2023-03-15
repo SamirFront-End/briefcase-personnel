@@ -1,7 +1,7 @@
 .frm {
     background-image: url(/assent/images/patter.jpg);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 48% 48%;
     border-radius: 1.25rem;
 }
 .frm input{
@@ -34,7 +34,7 @@
     font-weight: bolder;
 }
 fieldset {
-    width: 40%;
+    width: 96%;
     margin: auto;
     display: flex;
     flex-direction: column;

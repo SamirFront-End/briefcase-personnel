@@ -47,7 +47,7 @@ h1 {
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .banner {
         display: flex;
         flex-direction: column;

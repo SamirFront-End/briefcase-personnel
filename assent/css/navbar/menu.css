@@ -10,7 +10,7 @@
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .nav_menu a{
         color: white;
         margin: 10px;
