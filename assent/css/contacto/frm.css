@@ -1,3 +1,62 @@
+.frm {
+    background-image: url(/assent/images/patter.jpg);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.25rem;
+}
+.frm input{
+    width: 70%;
+    margin: auto;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    padding: 1.25rem;
+    border-color: #E3F2FD;
+    border-radius: 5px;
+
+}
+.frm textarea{
+    width: 70%;
+    margin: auto;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    padding: 1.25rem;
+    border-color: #E3F2FD;
+    border-radius: 5px;
+}
+.frm input:nth-child(1) {
+    margin-top: 3.125rem;
+}
+#contact_submit {
+    margin-bottom: 1.5rem;
+    background-color: #1498d5;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+fieldset {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    border-color: #1498d5;
+    border-radius: 0.625rem;
+    background-color: #E3F2FD;
+    opacity:.9;
+}
+legend {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #1498d5;
+    text-align: center;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+    background-color: #E3F2FD;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
 @media (max-width: 992px) {
     .frm {
         background-image: url(/assent/images/patter.jpg);

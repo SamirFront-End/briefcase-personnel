@@ -1,3 +1,33 @@
+.frm_contact {
+    background-color: #E3F2FD;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
+
+.contact {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.title_contact {
+    padding-bottom: 1.875rem;
+}
+.title_contact h3 {
+    text-align: center;
+    font-size: 1.875rem;
+    margin: 0.938rem;
+}
+.title_contact p {
+    font-size: 1.563rem;
+    margin: 0.938rem;
+}
+.img_contact {
+    display: none;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
 @media (max-width: 992px) {
     .frm_contact {
         background-color: #E3F2FD;
@@ -19,5 +49,8 @@
     .title_contact p {
         font-size: 1.563rem;
         margin: 0.938rem;
+    }
+    .img_contact {
+        display: none;
     }
 }

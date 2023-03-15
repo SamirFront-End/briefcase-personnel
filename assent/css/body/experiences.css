@@ -1,3 +1,57 @@
+.jobs {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
+.experiences {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.img_jobs {
+    width: 40%;
+    border-radius: 10px;
+    margin: auto;
+}
+.experiences h3 {
+    font-size: 1.5rem;
+    margin: 0.938rem;
+}
+.experiences p {
+    font-size: 1.25rem;
+    margin: 0.938rem;
+}
+#repo {
+    background-color: #1498d5;
+    color:white;
+    font-size: 1.563rem;
+    font-weight: bolder;
+    border: none;
+    width: 40%;
+    height: 3.125rem;
+    margin: auto;
+    border-radius: 5px;
+}
+#demo {
+    background-color: white;
+    color:#1498d5;
+    font-size: 1.563rem;
+    font-weight: bolder;
+    border: 1px 1px;
+    border-color: #1498d5;
+    width: 40%;
+    height: 3.125rem;
+    margin: auto;
+    border-radius: 5px;
+}
+.buttons {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
 @media (max-width: 992px) {
     .jobs {
         padding-top: 1.875rem;
@@ -11,6 +65,7 @@
     }
     .img_jobs {
         width: 100%;
+        border-radius: 10px;
     }
     .experiences h3 {
         font-size: 1.875rem;
