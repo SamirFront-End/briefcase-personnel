@@ -33,12 +33,12 @@
                 <img id=logo src="/assent/images/logo.jpg" alt="Logo">
             </div>
             <div class="nav_menu" id="links">
-                <a href="#" class="menu_links">Sobre mi</a>
-                <a href="#" class="menu_links">Skill</a>
-                <a href="#" class="menu_links">Hobbies</a>
-                <a href="#" class="menu_links">Formación</a>
-                <a href="#" class="menu_links">Mis Proyectos</a>
-                <a href="#" class="menu_links">Contacto</a>
+                <a href="#me" class="menu_links" id="item">Sobre mi</a>
+                <a href="#skl" class="menu_links">Habilidades</a>
+                <a href="#hbs" class="menu_links">Hobbies</a>
+                <a href="#frmt" class="menu_links">Formación</a>
+                <a href="#pry" class="menu_links">Mis Proyectos</a>
+                <a href="#cnt" class="menu_links">Contacto</a>
             </div>
             <div class="nav_hamburger" id="hamburger">
                 <span></span>
@@ -47,24 +47,24 @@
             </div>
         </nav>
     </header>
-    <section class="banner">
+    <section id="top" class="banner">
         <div class="call_action">
             <h1>Hola, soy Samir Ramírez y desarrollo sitios web </h1>
             <p>                        
                 Estoy aquí para ayudarte a ti y a tu negocio a alcanzar otro nivel, no te quedes sin ingresar al mundo digital y tener más y mejores oportunidades de negocio ¿Qué esperas para crecer? Contáctame y construyamos el sitio web que tanto sueñas.
             </p>
             <div class="icons">
-                <i class="ib fa-brands fa-github"></i><span class="icon_span">GitHub</span>
-                <i class="ib fa-brands fa-linkedin"></i><span class="icon_span">LinkedIn</span>
-                <i class="ib fa-brands fa-instagram"></i><span class="icon_span">Instagram</span>
+                <a href="https://github.com/SamirFront-End" target="github"><i class="ib fa-brands fa-github"></i><span class="icon_span">GitHub</span></a>
+                <a href="https://www.linkedin.com/in/samir-ramirez-0254621a5/" target="linkedin"><i class="ib fa-brands fa-linkedin"></i><span class="icon_span">LinkedIn</span></a>
+                <a href="https://instagram.com/miramirez1987" target="instagram"><i class="ib fa-brands fa-instagram"></i><span class="icon_span">Instagram</span></a>
             </div>
-            <button>Empieza ahora</button>
+            <button id="btn_now">Empieza ahora</button>
         </div>
         <div class="photo_profile">
             <img src="/assent/images/photo.jpg" alt="foto">
         </div>
     </section>
-    <section class="about">
+    <section id="me" class="about">
         <div class="about_me">
             <h2>Sobre mi</h2>
             <p class="me">
@@ -72,7 +72,7 @@
             </p>
         </div>
     </section>
-    <section class="skill">
+    <section id="skl" class="skill">
         <div class="title_skill">
             <h2>Skills</h2>
         </div>
@@ -107,7 +107,7 @@
             </div>
         </div>
         <div class="title hobbies">
-            <h2>Hobbies</h2>
+            <h2 id="hbs">Hobbies</h2>
         </div>
         <div class="hobbies">
             <div class="hobbi">
@@ -136,7 +136,7 @@
             </div>
         </div>
     </section>
-    <section class="education">
+    <section id="frmt" class="education">
         <div class="title_formation">
             <h2>Formación</h2>
         </div>
@@ -164,7 +164,7 @@
         </div>
         
     </section>
-    <section class="jobs">
+    <section id="pry" class="jobs">
         <h2>Experiencia profesional</h2>
         <div class="experiences">
             <img class="img_jobs" src="/assent/images/mosaico.png" alt="Urgencias del PC">
@@ -178,7 +178,7 @@
             </div>
         </div>
     </section>
-    <section class="frm_contact">
+    <section id="cnt" class="frm_contact">
         <div class="contact">
             <div class="title_contact">
                 <h3>Contacto.</h3>
@@ -201,9 +201,9 @@
     </section>
     <footer>
         <div class="footer_network">
-            <i class="icon_foot fa-brands fa-github"></i><span class="footer_icon">GitHub</span>
-            <i class="icon_foot fa-brands fa-linkedin"></i><span class="footer_icon">LinkedIn</span>
-            <i class="icon_foot fa-brands fa-instagram"></i><span class="footer_icon">Instagram</span>
+            <a href="https://github.com/SamirFront-End" target="github"><i class="icon_foot fa-brands fa-github"></i><span class="footer_icon">GitHub</span></a>
+            <a href="https://www.linkedin.com/in/samir-ramirez-0254621a5/" target="linkendin"><i class="icon_foot fa-brands fa-linkedin"></i><span class="footer_icon">LinkedIn</span></a>
+            <a href="https://instagram.com/miramirez1987" target="instagram"><i class="icon_foot fa-brands fa-instagram"></i><span class="footer_icon">Instagram</span></a>            
         </div>
         <div class="footer_p">
             <p>Autor: Samir Ramírez</p>
@@ -211,7 +211,7 @@
             <p>&copy; Derechos reservados 2023</p>
         </div>
         <div class="footer_logo">
-            <img class="logo_footer" src="/assent/images/logodev2.png" alt="SamirDev">
+            <a href="#top"><img class="logo_footer" src="/assent/images/logodev2.png" alt="SamirDev"></a>           
         </div>
         <div class="sub_footer">
             <p class="p_footer">

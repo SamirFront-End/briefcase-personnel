@@ -43,7 +43,14 @@ h1 {
 .photo_profile img{
     border-radius: 100px;
     margin-top: 3.125rem;
-}    
+}
+#btn_now {
+    cursor: pointer;
+}  
+#btn_now:hover {
+    background-color: #1e88e5; 
+    transition: .3s;
+}  
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 

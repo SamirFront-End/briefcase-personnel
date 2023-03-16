@@ -54,6 +54,13 @@ legend {
     padding-right: 0.625rem;
     background-color: #E3F2FD;
 }
+#contact_submit {
+    cursor: pointer;
+}
+#contact_submit:hover {
+    background-color: #1E88E5;
+    transition: .3s;
+}
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 

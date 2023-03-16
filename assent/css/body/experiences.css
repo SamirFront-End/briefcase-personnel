@@ -49,6 +49,22 @@
     margin: auto;
     display: flex;
 }
+#repo {
+    cursor: pointer;
+}
+#repo:hover {
+    background-color: #1e88e5;
+    transition: .3s;
+}
+#demo {
+    cursor: pointer;
+}
+#demo:hover {
+    background-color: #1498d5;
+    color: white;
+    border: none;
+    transition: .3s;
+}
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 

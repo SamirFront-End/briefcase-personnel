@@ -7,6 +7,24 @@
 .nav_hamburger {
     display: none;
 }
+/*#item {
+    background-color: #1E88E5 ;
+    width: 10px;
+    height: 5px;
+}*/
+#item:before {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #1498d5;
+    transition: all .3s;
+}
+#item:hover:before {
+    width: 100%;
+  }
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 
