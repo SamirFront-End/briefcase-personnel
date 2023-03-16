@@ -37,7 +37,7 @@ footer {
         background: linear-gradient(90deg, rgba(20,152,213,1) 35%, rgba(0,212,255,1) 100%);
     }
     .icon_foot {
-        display: block;
+        display:block;
         color: #1498d5!important;
         margin: 0.625rem !important;
         font-size: 3.125rem !important;

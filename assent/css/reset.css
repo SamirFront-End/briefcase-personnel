@@ -5,7 +5,10 @@ a {
     text-decoration: none;
 }
 header {
-    position: sticky;
-    top: 0px;
     background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+nav {
+    height: 25px;
 }

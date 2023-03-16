@@ -43,6 +43,15 @@ h1 {
 .photo_profile img{
     border-radius: 100px;
     margin-top: 3.125rem;
+    
+}
+.photo_profile {
+    background-color: #1498d5;
+    height: 50%;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
 }
 #btn_now {
     cursor: pointer;
