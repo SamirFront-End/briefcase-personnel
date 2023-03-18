@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="/assent/css/piedepagina/footer.css">
     <link rel="stylesheet" href="/assent/css/contacto/titlecontacto.css">
     <link rel="stylesheet" href="/assent/css/contacto/frm.css">
-    <script src="/js/function.js"></script>
     <script src="https://kit.fontawesome.com/76750b34bb.js" crossorigin="anonymous"></script>
     <title>SamirDev</title>
 </head>
@@ -197,14 +196,14 @@
                     Solo necesitas llenar el siguiente formulario para contactarte en el menor tiempo posible y juntos crearemos el sitio web que tú y tu negocio necesitan.
                 </p>
             </div>
-            <form class="frm" action="">
+            <form class="frm" action="/msgok.html">
                 <img src="/assent/images/imgcontact.jpg" alt="" class="img_contact">
                 <fieldset>
                     <legend>Enviar mensaje </legend>
-                    <input type="text" id="contact_name" placeholder="Nombre" required>
-                    <input type="email" id="contact_email" placeholder="Correo Eletrónico" required>
-                    <input type="text" id="contact_affair" placeholder="Asunto">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe aquí tu mensaje" ></textarea>
+                    <input type="text" id="contact_name" placeholder="Nombre" required minlength="2" maxlength="50" data-tipo="name">
+                    <input type="email" id="contact_email" placeholder="Correo Eletrónico" required data-tipo="email">
+                    <input type="text" id="contact_affair" placeholder="Asunto" required maxlength="50" data-tipo="asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe aquí tu mensaje" required maxlength="300" data-tipo="msg"></textarea>
                     <input type="submit" id="contact_submit" value="Contactar">
                 </fieldset>
             </form>
@@ -230,6 +229,6 @@
             </p>
         </div>
     </footer>
-    
+    <script src="/js/navbar.js"></script>
 </body>
 </html>

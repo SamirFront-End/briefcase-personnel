@@ -54,17 +54,19 @@ legend {
     padding-right: 0.625rem;
     background-color: #E3F2FD;
 }
-#contact_submit {
-    cursor: pointer;
-}
 #contact_submit:hover {
+    cursor: pointer;
     background-color: #1E88E5;
     transition: .3s;
 }
+#msgsend {
+    font-size: 24px;
+}
+
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .frm {
         background-image: url(/assent/images/patter.jpg);
         display: flex;

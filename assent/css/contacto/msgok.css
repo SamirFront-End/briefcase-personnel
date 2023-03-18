@@ -1,0 +1,98 @@
+.body_msgok {
+    background-image: url(/assent/images/patter.jpg);
+}
+fieldset {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    border-color: #1498d5;
+    border-radius: 0.625rem;
+    background-color: #E3F2FD;
+    opacity:.9;
+}
+#msg_logo {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.fa-solid {
+    font-size: 80px;
+    color: #1498d5;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#msgsend {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#btnreturn {
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    background-color: #1498d5;
+    text-align: center;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+#btnreturn:hover {
+    cursor: pointer;
+    background-color: #1E88E5;
+    transition: .3s;
+}
+
+/*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
+
+@media (max-width: 768px) {
+    fieldset {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+        border-color: #1498d5;
+        border-radius: 0.625rem;
+        background-color: #E3F2FD;
+        opacity:.9;
+    }
+    #msg_logo {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1.875rem;
+    }
+.fa-solid {
+    font-size: 5rem;
+    color: #1498d5;
+    margin: auto;
+    margin-bottom: 1.875rem;
+}
+#msgsend {
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+#btnreturn {
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    background-color: #1498d5;
+    text-align: center;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+#btnreturn:hover {
+    cursor: pointer;
+    background-color: #1E88E5;
+    transition: .3s;
+}
+}
