@@ -1,5 +1,5 @@
 .frm {
-    background-image: url(/assent/images/patter.jpg);
+    background-image: url("/assent/images/patter.jpg");
     display: grid;
     grid-template-columns: 48% 48%;
     border-radius: 1.25rem;
@@ -62,13 +62,31 @@ legend {
 #msgsend {
     font-size: 24px;
 }
+.input_data {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 
+}
+.error {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: darkcyan;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+#contact_name, #contact_email, #contact_affair, #contact_msg {
+    margin-top: 15px;
+}
 
 /*<<<<<<---RESPONSIVO MOBILE & TABLET--->>>>>>*/
 
 @media (max-width: 768px) {
     .frm {
-        background-image: url(/assent/images/patter.jpg);
+        background-image: url(assent/images/patter.jpg);
         display: flex;
         flex-direction: column;
         border-radius: 1.25rem;

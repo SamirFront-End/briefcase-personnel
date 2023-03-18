@@ -24,6 +24,12 @@ fieldset {
     margin: auto;
     margin-bottom: 30px;
 }
+.repout {
+    font-size: 80px;
+    color: #1498d5;
+    margin: auto;
+    margin-bottom: 30px;
+}
 #msgsend {
     text-align: center;
     margin-bottom: 30px;

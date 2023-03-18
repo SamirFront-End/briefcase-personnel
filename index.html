@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/assent/images/favicon.ico">
+    <link rel="icon" type="image/png" href="assent/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assent/css/normalize.css">
-    <link rel="stylesheet" href="/assent/css/reset.css">
-    <link rel="stylesheet" href="/assent/css/navbar/navbar.css">
-    <link rel="stylesheet" href="/assent/css/navbar/menu.css">
-    <link rel="stylesheet" href="/assent/css/banner/banner.css">
-    <link rel="stylesheet" href="/assent/css/body/about.css">
-    <link rel="stylesheet" href="/assent/css/body/skills.css">
-    <link rel="stylesheet" href="/assent/css/body/hobbies.css">
-    <link rel="stylesheet" href="/assent/css/body/formation.css">
-    <link rel="stylesheet" href="/assent/css/body/experiences.css">
-    <link rel="stylesheet" href="/assent/css/piedepagina/footer.css">
-    <link rel="stylesheet" href="/assent/css/contacto/titlecontacto.css">
-    <link rel="stylesheet" href="/assent/css/contacto/frm.css">
+    <link rel="stylesheet" href="assent/css/normalize.css">
+    <link rel="stylesheet" href="assent/css/reset.css">
+    <link rel="stylesheet" href="assent/css/navbar/navbar.css">
+    <link rel="stylesheet" href="assent/css/navbar/menu.css">
+    <link rel="stylesheet" href="assent/css/banner/banner.css">
+    <link rel="stylesheet" href="assent/css/body/about.css">
+    <link rel="stylesheet" href="assent/css/body/skills.css">
+    <link rel="stylesheet" href="assent/css/body/hobbies.css">
+    <link rel="stylesheet" href="assent/css/body/formation.css">
+    <link rel="stylesheet" href="assent/css/body/experiences.css">
+    <link rel="stylesheet" href="assent/css/piedepagina/footer.css">
+    <link rel="stylesheet" href="assent/css/contacto/titlecontacto.css">
+    <link rel="stylesheet" href="assent/css/contacto/frm.css">
     <script src="https://kit.fontawesome.com/76750b34bb.js" crossorigin="anonymous"></script>
     <title>SamirDev</title>
 </head>
@@ -28,7 +28,7 @@
     <header>
         <nav class="navbar" id="barnav">
             <div class="nav_logo">
-                <img id=logo src="/assent/images/logo.jpg" alt="Logo">
+                <img id=logo src="assent/images/logo.jpg" alt="Logo">
             </div>
             <div class="nav_menu" id="links">
                 <div class="item slider">
@@ -68,10 +68,10 @@
                 <a href="https://www.linkedin.com/in/samir-ramirez-0254621a5/" target="linkedin"><i class="ib fa-brands fa-linkedin"></i><span class="icon_span">LinkedIn</span></a>
                 <a href="https://instagram.com/miramirez1987" target="instagram"><i class="ib fa-brands fa-instagram"></i><span class="icon_span">Instagram</span></a>
             </div>
-            <button id="btn_now">Empieza ahora</button>
+            <button id="btn_now" onclick="frm()">Empieza ahora</button>
         </div>
         <div class="photo_profile">
-            <img src="/assent/images/photo.jpg" alt="foto">
+            <img src="assent/images/photo.jpg" alt="foto">
         </div>
     </section>
     <section id="me" class="about">
@@ -152,22 +152,22 @@
         </div>
         <div class="edu_formt">
             <div class="formation">
-                <img class="universities" src="/assent/images/austral.png" alt="Universidad Austral">
+                <img class="universities" src="assent/images/austral.png" alt="Universidad Austral">
                 <h3>Diseño WEB con Bootstrap</h3>
                 <p>Finalizado</p>
             </div>
             <div class="formation">
-                <img class="universities" src="/assent/images/michigan.png" alt="Universidad de Michigan">
+                <img class="universities" src="assent/images/michigan.png" alt="Universidad de Michigan">
                 <h3>CSS3</h3>
                 <p>Finalizado</p>
             </div>
             <div class="formation">
-                <img class="universities" src="/assent/images/oit.png" alt="Organizacion Internacion de Trabajo">
+                <img class="universities" src="assent/images/oit.png" alt="Organizacion Internacion de Trabajo">
                 <h3>Diplomado FullStack</h3>
                 <p>Finalizado</p>
             </div>
             <div class="formation">
-                <img class="universities" src="/assent/images/alura.png" alt="Alura">
+                <img class="universities" src="assent/images/alura.png" alt="Alura">
                 <h3>Desarrollador Front-End</h3>
                 <p>En curso</p>
             </div>
@@ -177,14 +177,14 @@
     <section id="pry" class="jobs">
         <h2>Experiencia profesional</h2>
         <div class="experiences">
-            <img class="img_jobs" src="/assent/images/mosaico.png" alt="Urgencias del PC">
+            <img class="img_jobs" src="assent/images/mosaico.png" alt="Urgencias del PC">
             <h3>Web Site Urgencias del PC</h3>
             <p>
                 Este sitio tiene como objetivo ofrecer servicios de reparación, mantenimiento y venta de equipos y elementos de computo, además de ofrecer un amplio servicio de respaldo y recuperación de archivos en diferentes dispositivos de almacenamiento. 
             </p>
             <div class="buttons">
-                <button id="repo">Repositorio</button>
-                <button id="demo">Demo</button>
+                <button id="repo" onclick="repositorio()">Repositorio</button>
+                <button id="demo" onclick="demo()">Demo</button>
             </div>
         </div>
     </section>
@@ -197,13 +197,25 @@
                 </p>
             </div>
             <form class="frm" action="/msgok.html">
-                <img src="/assent/images/imgcontact.jpg" alt="" class="img_contact">
+                <img src="assent/images/imgcontact.jpg" alt="" class="img_contact">
                 <fieldset>
                     <legend>Enviar mensaje </legend>
-                    <input type="text" id="contact_name" placeholder="Nombre" required minlength="2" maxlength="50" data-tipo="name">
-                    <input type="email" id="contact_email" placeholder="Correo Eletrónico" required data-tipo="email">
-                    <input type="text" id="contact_affair" placeholder="Asunto" required maxlength="50" data-tipo="asunto">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe aquí tu mensaje" required maxlength="300" data-tipo="msg"></textarea>
+                    <div class="input_data">
+                        <input type="text" id="contact_name" placeholder="Nombre" required minlength="2" maxlength="50" data-tipo="name">
+                        <span class="error"></span>
+                    </div>
+                    <div class="input_data">
+                        <input type="email" id="contact_email" placeholder="Correo Eletrónico" required data-tipo="email">
+                        <span class="error"></span>
+                    </div>
+                    <div class="input_data">
+                        <input type="text" id="contact_affair" placeholder="Asunto" required maxlength="50" data-tipo="asunto">
+                        <span class="error"></span>
+                    </div>
+                    <div class="input_data">
+                        <textarea name="" id="contact_msg" cols="30" rows="10" placeholder="Escribe aquí tu mensaje" required maxlength="300" data-tipo="msg"></textarea>
+                        <span class="error"></span>
+                    </div>
                     <input type="submit" id="contact_submit" value="Contactar">
                 </fieldset>
             </form>
@@ -221,7 +233,7 @@
             <p>&copy; Derechos reservados 2023</p>
         </div>
         <div class="footer_logo">
-            <a href="#top"><img class="logo_footer" src="/assent/images/logodev2.png" alt="SamirDev"></a>           
+            <a href="#top"><img class="logo_footer" src="assent/images/logodev2.png" alt="SamirDev"></a>           
         </div>
         <div class="sub_footer">
             <p class="p_footer">
@@ -229,6 +241,8 @@
             </p>
         </div>
     </footer>
-    <script src="/js/navbar.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/app.js" type="module"></script>
+    <script src="js/btns.js"></script>
 </body>
 </html>
