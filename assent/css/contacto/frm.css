@@ -1,5 +1,5 @@
 .frm {
-    background-image: url("/assent/images/patter.jpg");
+    background-image: url("assent/images/patter.jpg");
     display: grid;
     grid-template-columns: 48% 48%;
     border-radius: 1.25rem;
