@@ -1,11 +1,11 @@
 .frm {
-    background-image: url(/assent/images/patter.jpg);
+    background-image: url(/assent/images/logodevs2.png);
     display: grid;
     grid-template-columns: 48% 48%;
     border-radius: 1.25rem;
 }
 .frm input{
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
@@ -15,7 +15,7 @@
 
 }
 .frm textarea{
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
@@ -92,7 +92,7 @@ legend {
         border-radius: 1.25rem;
     }
     .frm input{
-        width: 70%;
+        width: 80%;
         margin: auto;
         margin-top: 0.625rem;
         margin-bottom: 0.625rem;
@@ -101,7 +101,7 @@ legend {
         border-radius: 5px;
     }
     .frm textarea{
-        width: 70%;
+        width: 80%;
         margin: auto;
         margin-top: 0.625rem;
         margin-bottom: 0.625rem;
@@ -120,7 +120,7 @@ legend {
         font-weight: bolder;
     }
     fieldset {
-        width: 80%;
+        width: 90%;
         margin: auto;
         display: flex;
         flex-direction: column;

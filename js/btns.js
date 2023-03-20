@@ -3,8 +3,8 @@ function frm() {
 };
 
 function repositorio(){
-    window.location.href="../repoout.html";
+    window.location.href="repoout.html";
 }
 function demo(){
-    window.location.href="../demoout.html"
+    window.location.href="demoout.html";
 }
